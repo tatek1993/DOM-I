@@ -108,6 +108,10 @@ bottomContentText[0].textContent = siteContent["main-content"]["services-content
 bottomContentText[1].textContent = siteContent["main-content"]["product-content"];
 bottomContentText[2].textContent = siteContent["main-content"]["vision-content"];
 
+const allBottomContent = document.getElementsByClassName('bottom-content');
+allBottomContent[0].style.backgroundColor = 'springgreen';
+allBottomContent[0].style.fontWeight = 'bold';
+
 //Contact Starts Here
 const contactHeading = document.querySelector('.contact h4');
 contactHeading.textContent = siteContent.contact["contact-h4"];
