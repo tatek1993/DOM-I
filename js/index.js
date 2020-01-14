@@ -120,6 +120,7 @@ contactText[2].textContent = siteContent.contact.email;
 //Footer
 const footerText = document.querySelector('footer');
 footerText.textContent = siteContent.footer.copyright;
+footerText.style.backgroundColor = 'cyan';
 
 
 // Example: Update the img src for the logo
